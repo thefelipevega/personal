@@ -2,8 +2,8 @@
 
 return [
     'production' => false,
-    'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
+    'baseUrl' => 'personal.test',
+    'title' => 'Felipe Vega',
+    'description' => 'My personal website.',
     'collections' => [],
 ];
