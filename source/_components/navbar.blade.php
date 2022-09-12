@@ -45,7 +45,9 @@
       </div>
     </div>
     <div class="flex w-full items-center justify-between md:hidden">
-      <h1 class="flex-shrink-0 text-2xl font-extrabold">Felipe Vega</h1>
+      <a href="/">
+        <img class="h-12 w-auto rounded-full object-cover ring ring-sky-500" src="assets/images/headshot-angled.jpg" />
+      </a>
       <button
         type="button"
         id="menu-button"
