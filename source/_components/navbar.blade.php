@@ -25,7 +25,7 @@
           @click.away="open = false"
           class="overflow-hidden rounded-2xl bg-zinc-900 p-10 shadow-md ring-1 ring-sky-500/25">
           <div class="flex items-center justify-between">
-            <span class="text-sm font-medium text-zinc-400">Menu</span>
+            <span class="text-xs font-medium uppercase text-zinc-400">Menu</span>
             <button
               type="button"
               @click="open = false"
@@ -54,7 +54,7 @@
         @click="open = true"
         :aria-expanded="open"
         aria-haspopup="true"
-        class="inline-flex justify-center rounded-md border border-zinc-700 bg-zinc-900 px-4 py-2 text-sm font-medium shadow-sm transition-colors ease-in hover:border-sky-500 focus:outline-none focus:ring-2 focus:ring-zinc-500">
+        class="inline-flex justify-center rounded-md border border-zinc-700 bg-zinc-900 px-4 py-2 text-xs font-semibold uppercase tracking-wider shadow-sm transition-colors ease-in hover:border-sky-500 focus:outline-none focus:ring-2 focus:ring-zinc-500">
         Menu
         <svg class="-mr-1 ml-2 mt-0.5 h-4 w-4 fill-current" viewBox="0 0 20 20" aria-hidden="true">
           <path
