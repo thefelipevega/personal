@@ -6,9 +6,7 @@
     <link rel="canonical" href="{{ $page->getUrl() }}" />
     <meta name="description" content="{{ $page->description }}" />
     <title>{{ $page->title }}</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Noto+Sans+Mono:wght@400;500;600;700&display=swap"
-      rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700" rel="stylesheet" />
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}" />
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     <script src="//unpkg.com/alpinejs" defer></script>

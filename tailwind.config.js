@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Barlow", ...defaultTheme.fontFamily.sans],
+        sans: ["Cabin", ...defaultTheme.fontFamily.sans],
       },
     },
   },

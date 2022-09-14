@@ -23,9 +23,9 @@
         class="absolute inset-x-0 top-5 z-50 mx-auto max-w-xl origin-top transform p-6 transition md:hidden">
         <div
           @click.away="open = false"
-          class="overflow-hidden rounded-2xl bg-zinc-900 p-10 shadow-md ring-1 ring-sky-500/25">
+          class="overflow-hidden rounded-2xl bg-zinc-900 p-10 shadow-md ring-2 ring-sky-400/50">
           <div class="flex items-center justify-between">
-            <span class="text-xs font-medium uppercase text-zinc-400">Menu</span>
+            <span class="text-xs font-medium uppercase text-zinc-400">Go To</span>
             <button
               type="button"
               @click="open = false"
@@ -37,39 +37,36 @@
             </button>
           </div>
           <div class="space-y-3 py-6">
-            <a href="#" class="block py-2 text-lg hover:text-sky-500">About</a>
-            <a href="#" class="block py-2 text-lg hover:text-sky-500">Articles</a>
-            <a href="#" class="block py-2 text-lg hover:text-sky-500">Uses</a>
+            <a href="#" class="block py-2 text-lg hover:text-sky-400">About</a>
+            <a href="#" class="block py-2 text-lg hover:text-sky-400">Articles</a>
+            <a href="#" class="block py-2 text-lg hover:text-sky-400">Uses</a>
           </div>
         </div>
       </div>
     </div>
     <div class="flex w-full items-center justify-between md:hidden">
-      <a href="/">
-        <img class="h-12 w-auto rounded-full object-cover ring ring-sky-500" src="assets/images/headshot-angled.jpg" />
-      </a>
+      <h1 class="border-b-4 border-sky-400 pb-2 text-5xl font-bold">Felipe Vega</h1>
       <button
         type="button"
         id="menu-button"
         @click="open = true"
         :aria-expanded="open"
         aria-haspopup="true"
-        class="inline-flex justify-center rounded-md border border-zinc-700 bg-zinc-900 px-4 py-2 text-xs font-semibold uppercase tracking-wider shadow-sm transition-colors ease-in hover:border-sky-500 focus:outline-none focus:ring-2 focus:ring-zinc-500">
-        Menu
-        <svg class="-mr-1 ml-2 mt-0.5 h-4 w-4 fill-current" viewBox="0 0 20 20" aria-hidden="true">
+        class="-mr-1 rounded-lg border-2 border-zinc-600 p-1 text-xs font-semibold uppercase tracking-wider shadow-sm transition-colors ease-in hover:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-400">
+        <svg viewBox="0 0 24 24" class="h-6 w-6 stroke-current stroke-2">
           <path
-            fill-rule="evenodd"
-            d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z"
-            clip-rule="evenodd" />
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" />
         </svg>
       </button>
     </div>
     <div class="hidden flex-wrap justify-center space-x-8 rounded-2xl bg-zinc-800 px-8 py-2 md:flex">
-      <a href="#" class="text-base font-medium text-white hover:text-sky-500">About</a>
+      <a href="#" class="text-base font-medium text-white hover:text-sky-400">About</a>
 
-      <a href="#" class="text-base font-medium text-white hover:text-sky-500">Articles</a>
+      <a href="#" class="text-base font-medium text-white hover:text-sky-400">Articles</a>
 
-      <a href="#" class="text-base font-medium text-white hover:text-sky-500">Uses</a>
+      <a href="#" class="text-base font-medium text-white hover:text-sky-400">Uses</a>
     </div>
   </nav>
 </header>
