@@ -1,5 +1,4 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
-<header class="pt-4 pb-8">
+<header class="pt-4">
   <nav class="flex items-center justify-center" x-data="{open: false}">
     <div
       x-cloak
