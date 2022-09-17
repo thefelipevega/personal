@@ -37,7 +37,7 @@
           </div>
           <div class="space-y-3 py-6">
             <a href="#" class="block py-2 text-lg hover:text-sky-400">About</a>
-            <a href="#" class="block py-2 text-lg hover:text-sky-400">Articles</a>
+            <a href="#" class="block py-2 text-lg hover:text-sky-400">Writing</a>
             <a href="#" class="block py-2 text-lg hover:text-sky-400">Uses</a>
           </div>
         </div>
@@ -63,7 +63,7 @@
     <div class="hidden flex-wrap justify-center space-x-8 rounded-2xl bg-zinc-800 px-8 py-2 md:flex">
       <a href="#" class="text-base font-medium text-white hover:text-sky-400">About</a>
 
-      <a href="#" class="text-base font-medium text-white hover:text-sky-400">Articles</a>
+      <a href="#" class="text-base font-medium text-white hover:text-sky-400">Writing</a>
 
       <a href="#" class="text-base font-medium text-white hover:text-sky-400">Uses</a>
     </div>

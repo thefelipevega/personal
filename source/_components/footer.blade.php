@@ -6,7 +6,7 @@
         <a href="#" class="text-base hover:text-sky-400">About</a>
       </div>
       <div class="px-5 py-2">
-        <a href="#" class="text-base hover:text-sky-400">Articles</a>
+        <a href="#" class="text-base hover:text-sky-400">Writing</a>
       </div>
       <div class="px-5 py-2">
         <a href="#" class="text-base hover:text-sky-400">Uses</a>
