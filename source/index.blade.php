@@ -1,33 +1,35 @@
 @extends('_layouts.main') @section('body')
-<div class="flex flex-col space-y-8 pb-4 sm:flex-row sm:items-center sm:justify-around sm:space-y-0 sm:space-x-2">
-  <h2 class="text-4xl font-medium text-white sm:text-5xl">Product manager, web developer, & bag of opinions.</h2>
-  <div class="flex flex-wrap gap-2 sm:flex-col sm:flex-nowrap sm:gap-0">
-    <a
-      href="https://twitter.com/devepilef"
-      class="flex items-center rounded-lg border-2 border-zinc-700 p-1.5 text-zinc-400 hover:border-sky-700 hover:text-sky-400 sm:border-none">
-      <span class="sr-only">Twitter</span>
-      <svg class="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path
-          d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-      </svg>
-      <span class="ml-1 text-sm font-medium sm:block">devepilef</span>
-    </a>
-    <a
-      href="https://github.com/devepilef"
-      class="flex items-center rounded-lg border-2 border-zinc-700 p-1.5 text-zinc-400 hover:border-sky-700 hover:text-sky-400 sm:border-none">
-      <span class="sr-only">GitHub</span>
-      <svg class="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path
-          fill-rule="evenodd"
-          d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-          clip-rule="evenodd" />
-      </svg>
-      <span class="ml-1 text-sm font-medium sm:block">devepilef</span>
-    </a>
+<div class="flex flex-col space-y-8">
+  <div
+    id="title"
+    class="flex flex-col space-y-8 pb-4 sm:flex-row sm:items-center sm:justify-around sm:space-y-0 sm:space-x-2">
+    <h2 class="text-4xl font-medium text-white sm:text-5xl">Product manager, web developer, & bag of opinions.</h2>
+    <div class="flex flex-wrap gap-2 sm:flex-col sm:flex-nowrap sm:gap-0">
+      <a
+        href="https://twitter.com/devepilef"
+        class="flex items-center rounded-lg border-2 border-zinc-700 p-1.5 text-zinc-400 hover:border-sky-700 hover:text-sky-400 sm:border-none">
+        <span class="sr-only">Twitter</span>
+        <svg class="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+        </svg>
+        <span class="ml-1 text-sm font-medium sm:block">devepilef</span>
+      </a>
+      <a
+        href="https://github.com/devepilef"
+        class="flex items-center rounded-lg border-2 border-zinc-700 p-1.5 text-zinc-400 hover:border-sky-700 hover:text-sky-400 sm:border-none">
+        <span class="sr-only">GitHub</span>
+        <svg class="h-6 w-6 sm:h-8 sm:w-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            fill-rule="evenodd"
+            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+            clip-rule="evenodd" />
+        </svg>
+        <span class="ml-1 text-sm font-medium sm:block">devepilef</span>
+      </a>
+    </div>
   </div>
-</div>
-<div class="prose text-inherit marker:text-sky-400 sm:prose-lg">
-  <div id="about" class="pb-4">
+  <div id="about" class="prose text-inherit marker:text-sky-400 sm:prose-lg">
     <p>
       I never know how to start these things, so let's go over the
       <span class="underline decoration-sky-400 decoration-2 underline-offset-4">basics</span>.
@@ -43,8 +45,10 @@
       </li>
     </ul>
   </div>
-  <div id="my-stack" class="not-prose space-y-4 rounded-xl border-2 border-zinc-800 p-4 text-sm font-medium">
-    <h2 class="flex items-center text-xl font-semibold text-zinc-900 dark:text-zinc-100">
+  <div
+    id="stack"
+    class="not-prose mx-auto max-w-2xl space-y-4 rounded-xl border-2 border-zinc-800 p-4 text-sm font-medium">
+    <h2 class="flex items-center text-xl font-semibold">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -57,7 +61,7 @@
           stroke-linejoin="round"
           d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
       </svg>
-      <span class="ml-3">My Stack</span>
+      <span class="ml-3">Stack</span>
     </h2>
     <div class="flex flex-col space-y-4">
       <div class="flex items-center space-x-2">
@@ -179,5 +183,89 @@
       </div>
     </div>
   </div>
+  <div id="work" class="not-prose space-y-4 rounded-xl border-2 border-zinc-800 p-4 font-medium">
+    <div class="flex items-center justify-between">
+      <h2 class="flex items-center text-xl font-semibold">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="ml-1 h-8 w-8">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
+        </svg>
+        <span class="ml-3">Work</span>
+      </h2>
+      <a
+        class="group inline-flex items-center justify-center gap-1 rounded-md bg-zinc-800/50 py-2 px-3 text-sm font-medium text-zinc-300 outline-offset-2 transition hover:bg-zinc-800 hover:text-zinc-50 active:bg-zinc-800/50 active:text-zinc-50/70"
+        href="/#">
+        View Resume
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          aria-hidden="true"
+          class="h-5 w-5 stroke-zinc-400 transition group-hover:stroke-zinc-50 group-active:stroke-zinc-50">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+        </svg>
+      </a>
+    </div>
+    <div class="flex flex-col pt-2 pb-4">
+      <div class="relative pb-8">
+        <span class="absolute left-5 -ml-px h-full w-0.5 border border-dashed border-sky-400" aria-hidden="true"></span>
+        <div class="relative flex items-center space-x-2">
+          <div class="flex-shrink-0 rounded-full ring-2 ring-sky-400 ring-offset-2 ring-offset-zinc-900">
+            <img
+              alt="FlashSpread Logo"
+              src="/assets/images/flashspread-logo.jpeg"
+              class="h-10 w-10 rounded-full object-cover" />
+          </div>
+          <div class="grid w-full grid-cols-2">
+            <p class="col-span-2">FlashSpread</p>
+            <span class="text-xs text-zinc-400">Product Manager</span>
+            <span class="ml-auto text-xs text-zinc-400">2022 — Present</span>
+          </div>
+        </div>
+      </div>
+      <div class="relative pb-8">
+        <span
+          class="absolute left-5 -ml-px h-full w-0.5 border border-dashed border-zinc-700"
+          aria-hidden="true"></span>
+        <div class="relative flex items-start space-x-2">
+          <div class="flex-shrink-0 rounded-full ring-2 ring-zinc-700 ring-offset-2 ring-offset-zinc-900">
+            <img
+              alt="BeSmartee Logo"
+              src="/assets/images/besmartee-logo.png"
+              class="object-over h-10 w-10 rounded-full" />
+          </div>
+          <div class="grid w-full grid-cols-2">
+            <p class="col-span-2">BeSmartee</p>
+            <span class="text-xs text-zinc-400">Product Manager</span>
+            <span class="ml-auto mb-2 text-xs text-zinc-400">2021 — Present</span>
+            <span class="text-xs text-zinc-400">Lead Developer</span>
+            <span class="ml-auto mb-2 text-xs text-zinc-400">2019 — 2021</span>
+            <span class="text-xs text-zinc-400">Web Developer</span>
+            <span class="ml-auto text-xs text-zinc-400">2017 — 2019</span>
+          </div>
+        </div>
+      </div>
+      <div class="relative flex items-center space-x-2">
+        <div class="flex-shrink-0 rounded-full ring-2 ring-zinc-700 ring-offset-2 ring-offset-zinc-900">
+          <img alt="Felipe Vega" src="/assets/images/headshot-angled.jpg" class="h-10 w-10 rounded-full object-cover" />
+        </div>
+        <div class="grid w-full grid-cols-2">
+          <p class="col-span-2">Freelance</p>
+          <span class="text-xs text-zinc-400">Web Developer</span>
+          <span class="ml-auto text-xs text-zinc-400">2014 — 2017</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  @endsection
 </div>
-@endsection
