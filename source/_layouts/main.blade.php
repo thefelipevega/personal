@@ -13,8 +13,8 @@
   </head>
 
   <body class="mx-auto flex h-full max-w-7xl flex-col px-4 font-sans text-zinc-100 antialiased sm:px-6 lg:px-8">
-    <x-navbar></x-navbar>
-    <main class="flex-1 py-12">@yield('body')</main>
+    <x-header></x-header>
+    <main class="flex-1 py-4 lg:py-8">@yield('body')</main>
     <x-footer></x-footer>
   </body>
 </html>
