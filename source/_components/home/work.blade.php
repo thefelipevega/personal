@@ -1,4 +1,4 @@
-<div id="work" class="not-prose space-y-4 rounded-xl border-2 border-zinc-800 p-4 font-medium">
+<div id="work" class="flex flex-col space-y-4 rounded-xl border-2 border-zinc-800 p-4 font-medium sm:w-1/2">
   <div class="flex items-center justify-between">
     <h2 class="flex items-center text-xl font-semibold">
       <svg
@@ -31,8 +31,8 @@
       </svg>
     </a>
   </div>
-  <div class="flex flex-col pt-2 pb-4">
-    <div class="relative pb-8">
+  <div class="flex flex-1 flex-col justify-between pt-2 pb-4">
+    <div class="relative flex-1 pb-8">
       <span class="absolute left-5 -ml-px h-full w-0.5 border border-dashed border-sky-400" aria-hidden="true"></span>
       <div class="relative flex items-center space-x-2">
         <div class="flex-shrink-0 rounded-full ring-2 ring-sky-400 ring-offset-2 ring-offset-zinc-900">
@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div class="relative pb-8">
+    <div class="relative flex-1 pb-8">
       <span class="absolute left-5 -ml-px h-full w-0.5 border border-dashed border-zinc-700" aria-hidden="true"></span>
       <div class="relative flex items-start space-x-2">
         <div class="flex-shrink-0 rounded-full ring-2 ring-zinc-700 ring-offset-2 ring-offset-zinc-900">
