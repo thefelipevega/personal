@@ -1,4 +1,5 @@
-<div id="about" class="prose text-inherit marker:text-sky-400 sm:prose-lg">
+<div id="about" {{ $attributes->
+  merge(['class' => "prose text-inherit marker:text-sky-400 sm:prose-lg"]) }}>
   <p>
     I never know how to start these things, so let's go over the
     <span class="underline decoration-sky-400 decoration-2 underline-offset-4">basics</span>.
