@@ -1,4 +1,4 @@
-<div class="flex flex-col pt-4">
+<div class="flex flex-col lg:pb-2">
   <div class="flex items-center justify-between space-x-4 pb-3">
     <h1 class="flex-1 whitespace-nowrap text-4xl font-bold"><a href="/">Felipe Vega</a></h1>
     <div class="flex gap-2">
