@@ -1,4 +1,5 @@
-<div id="stack" class="flex flex-col space-y-2 rounded-xl border-2 border-zinc-800 p-6 pb-8">
+<div id="stack" {{ $attributes->
+  merge(['class' => "flex flex-col space-y-2 rounded-xl border-2 border-zinc-800 p-6 pb-8"]) }}>
   <div class="flex items-center justify-between">
     <h2 class="flex items-center text-xl font-semibold">
       <svg
