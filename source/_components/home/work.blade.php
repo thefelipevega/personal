@@ -1,5 +1,6 @@
 <div id="work" {{ $attributes->
-  merge(['class' => "flex flex-col space-y-4 rounded-xl border-2 border-zinc-800 p-4 font-medium"]) }}>
+  merge(['class' => "w-full max-w-md mx-auto flex flex-col space-y-4 p-4 font-medium sm:text-lg sm:rounded-xl
+  sm:border-2 sm:border-zinc-800 "]) }}>
   <div class="flex items-center justify-between">
     <h2 class="flex items-center text-xl font-semibold">
       <svg
@@ -44,8 +45,8 @@
         </div>
         <div class="grid w-full grid-cols-2">
           <p class="col-span-2">FlashSpread</p>
-          <span class="text-xs text-zinc-400">Product Manager</span>
-          <span class="ml-auto text-xs text-zinc-400">2022 — Present</span>
+          <span class="text-xs text-zinc-400 sm:text-sm">Product Manager</span>
+          <span class="ml-auto text-xs text-zinc-400 sm:text-sm">2022 — Present</span>
         </div>
       </div>
     </div>
@@ -60,12 +61,12 @@
         </div>
         <div class="grid w-full grid-cols-2">
           <p class="col-span-2">BeSmartee</p>
-          <span class="text-xs text-zinc-400">Product Manager</span>
-          <span class="ml-auto mb-2 text-xs text-zinc-400">2021 — Present</span>
-          <span class="text-xs text-zinc-400">Lead Developer</span>
-          <span class="ml-auto mb-2 text-xs text-zinc-400">2019 — 2021</span>
-          <span class="text-xs text-zinc-400">Web Developer</span>
-          <span class="ml-auto text-xs text-zinc-400">2017 — 2019</span>
+          <span class="text-xs text-zinc-400 sm:text-sm">Product Manager</span>
+          <span class="ml-auto mb-2 text-xs text-zinc-400 sm:text-sm">2021 — Present</span>
+          <span class="text-xs text-zinc-400 sm:text-sm">Lead Developer</span>
+          <span class="ml-auto mb-2 text-xs text-zinc-400 sm:text-sm">2019 — 2021</span>
+          <span class="text-xs text-zinc-400 sm:text-sm">Web Developer</span>
+          <span class="ml-auto text-xs text-zinc-400 sm:text-sm">2017 — 2019</span>
         </div>
       </div>
     </div>
@@ -75,8 +76,8 @@
       </div>
       <div class="grid w-full grid-cols-2">
         <p class="col-span-2">Freelance</p>
-        <span class="text-xs text-zinc-400">Web Developer</span>
-        <span class="ml-auto text-xs text-zinc-400">2014 — 2017</span>
+        <span class="text-xs text-zinc-400 sm:text-sm">Web Developer</span>
+        <span class="ml-auto text-xs text-zinc-400 sm:text-sm">2014 — 2017</span>
       </div>
     </div>
   </div>
