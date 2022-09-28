@@ -8,8 +8,8 @@
     I never know how to fill this area up, so let's go over the
     <span class="underline decoration-sky-400 decoration-2 underline-offset-4">basics</span>.
   </p>
-  <ul class="list-inside px-0">
-    <li>I'm a product manager and web developer based in Los Angeles California.</li>
+  <ul class="list-inside px-0 sm:-ml-8">
+    <li>I'm Felipe Vega, a product manager and web developer based in Los Angeles California.</li>
     <li>
       I live with my beautiful girlfriend and our two dogs <span class="text-sky-400">Snowbear</span> and
       <span class="text-pink-400">Luna</span>.
@@ -24,7 +24,7 @@
       (68ºF fyi)...
     </li>
   </ul>
-  <p class="text-center">I could go on 😅, but instead here's a picture of me and my family.</p>
+  <p class="text-center font-bold">I could go on 😅, but instead here's a picture of me and my family.</p>
   <figure class="mx-auto max-w-sm rotate-2">
     <img class="rounded-xl" src="/assets/images/family.jpeg" alt="Myself, Sandra, Luna and Snowbear" />
     <figcaption class="-mt-px flex">

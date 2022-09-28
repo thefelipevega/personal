@@ -1,15 +1,23 @@
-<div class="flex flex-col lg:pb-2">
-  <div class="flex items-center justify-between space-x-4 pb-3">
-    <h1 class="flex-1 whitespace-nowrap text-4xl font-bold"><a href="/">Felipe Vega</a></h1>
-    <div class="flex gap-2">
-      <a href="https://twitter.com/devepilef" class="flex items-center text-zinc-400 hover:text-sky-400">
+<header x-data>
+  <div class="flex items-center justify-between">
+    <div class="flex items-center justify-between space-x-3">
+      @foreach($page->sections as $section)
+      <a
+        href="{{ $section->url }}"
+        class="text-xl tracking-wide hover:text-zinc-100 {{ $page->path() === $section->url ? 'text-white font-bold' : 'text-zinc-400' }}">
+        {{ $section->title }}
+      </a>
+      @endforeach
+    </div>
+    <div class="flex justify-end gap-2">
+      <a href="https://twitter.com/devepilef" class="flex items-center text-zinc-400 hover:text-white">
         <span class="sr-only">Twitter</span>
         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path
             d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
         </svg>
       </a>
-      <a href="https://github.com/devepilef" class="flex items-center text-zinc-400 hover:text-sky-400">
+      <a href="https://github.com/devepilef" class="flex items-center text-zinc-400 hover:text-white">
         <span class="sr-only">GitHub</span>
         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path
@@ -20,5 +28,5 @@
       </a>
     </div>
   </div>
-  <div class="h-1.5 w-full rounded-full bg-sky-400"></div>
-</div>
+  <div class="my-2 h-1.5 w-full rounded-full bg-sky-400"></div>
+</header>

@@ -31,7 +31,7 @@
   </head>
 
   <body class="mx-auto flex h-full max-w-7xl flex-col px-4 py-4 font-sans text-zinc-100 antialiased sm:px-6 lg:px-8">
-    <x-header></x-header>
+    <x-header :page="$page"></x-header>
     <main class="flex-1 py-4">@yield('body')</main>
     <x-footer></x-footer>
   </body>
