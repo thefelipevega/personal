@@ -6,8 +6,24 @@
     <title>{{ $page->title }}</title>
     <link rel="canonical" href="{{ $page->getUrl() }}" />
     <meta name="description" content="{{ $page->description }}" />
-    <link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
-    <link rel="shortcut icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
+
+    <!-- Generic Favicons -->
+    <link rel="icon" href="assets/images/favicons/favicon-32.png" sizes="32x32" />
+    <link rel="icon" href="assets/images/favicons/favicon-57.png" sizes="57x57" />
+    <link rel="icon" href="assets/images/favicons/favicon-76.png" sizes="76x76" />
+    <link rel="icon" href="assets/images/favicons/favicon-96.png" sizes="96x96" />
+    <link rel="icon" href="assets/images/favicons/favicon-128.png" sizes="128x128" />
+    <link rel="icon" href="assets/images/favicons/favicon-192.png" sizes="192x192" />
+    <link rel="icon" href="assets/images/favicons/favicon-228.png" sizes="228x228" />
+
+    <!-- Android Favicon -->
+    <link rel="shortcut icon" sizes="196x196" href="assets/images/favicons/favicon-196.png" />
+
+    <!-- iOS Favicons -->
+    <link rel="apple-touch-icon" href="assets/images/favicons/favicon-120.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="assets/images/favicons/favicon-152.png" sizes="152x152" />
+    <link rel="apple-touch-icon" href="assets/images/favicons/favicon-180.png" sizes="180x180" />
+
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700" rel="stylesheet" />
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}" />
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
