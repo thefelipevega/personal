@@ -1,14 +1,13 @@
 <div id="about" {{ $attributes->
-  merge(['class'=>"sm:px-4 mx-auto prose prose-lg text-inherit marker:text-sky-400 sm:prose-lg sm:max-w-none lg:p-0"])
-  }}>
-  <h2 class="mb-4 w-full text-4xl font-medium text-white sm:text-5xl lg:mb-6">
+  merge(['class'=>"sm:px-4 mx-auto prose prose-lg text-inherit marker:text-sky-400 sm:max-w-none lg:p-0"]) }}>
+  <h2 class="mb-4 w-full text-4xl font-medium text-inherit sm:text-5xl lg:mb-6">
     Product manager, web developer, & bag of opinions.
   </h2>
   <p>
     I never know how to fill this area up, so let's go over the
     <span class="underline decoration-sky-400 decoration-2 underline-offset-4">basics</span>.
   </p>
-  <ul class="list-inside px-0 sm:-ml-8">
+  <ul class="list-inside space-y-1 px-0 lg:-ml-2">
     <li>I'm Felipe Vega, a product manager and web developer based in Los Angeles California.</li>
     <li>
       I live with my beautiful girlfriend and our two dogs <span class="text-sky-400">Snowbear</span> and

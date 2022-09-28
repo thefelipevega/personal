@@ -1,6 +1,6 @@
 <div id="stack" {{ $attributes->
-  merge(['class' => "max-w-md mx-auto flex flex-col space-y-2 sm:text-lg sm:rounded-xl sm:border-2 sm:border-zinc-800
-  p-6 pb-8"]) }}>
+  merge(['class' => "max-w-md mx-auto flex flex-col space-y-2 sm:text-lg lg:text-xl sm:rounded-xl sm:border-2
+  sm:border-zinc-800 p-4"]) }}>
   <div class="flex items-center justify-between">
     <h2 class="flex items-center text-xl font-semibold">
       <svg
@@ -18,11 +18,11 @@
       <span class="ml-3">Stack</span>
     </h2>
   </div>
-  <p class="pb-4">
+  <p class="pb-4 text-base">
     These are the tools I use most often for development and they keep my projects modern, concise, and efficient.
   </p>
   <div class="mx-auto flex flex-1 flex-col justify-between space-y-2">
-    <div class="flex items-center space-x-4">
+    <div class="flex items-center space-x-8">
       <svg
         class="h-12 w-12 flex-shrink-0 rotate-3 rounded-xl border-4 border-zinc-700/25 bg-zinc-800 object-cover p-2"
         viewBox="0 0 1000 1000"
@@ -36,7 +36,7 @@
       </svg>
       <p class="flex-1"><span class="mr-0.5 -ml-1 text-xl font-bold text-sky-400">T</span>ailwind for CSS</p>
     </div>
-    <div class="flex items-center space-x-4">
+    <div class="flex items-center space-x-8">
       <svg
         class="h-12 w-12 flex-shrink-0 -translate-x-2 -rotate-2 rounded-xl border-4 border-zinc-700/25 bg-zinc-800 p-2"
         viewBox="0 0 225 134"
@@ -56,7 +56,7 @@
       </svg>
       <p class="flex-1"><span class="mr-0.5 -ml-1 text-xl font-bold text-sky-400">A</span>lpine for javascript</p>
     </div>
-    <div class="flex items-center space-x-4">
+    <div class="flex items-center space-x-8">
       <svg
         class="h-12 w-12 flex-shrink-0 translate-x-2 rotate-1 rounded-xl border-4 border-zinc-700/25 bg-zinc-800 p-2"
         viewBox="0 0 54 50">
@@ -127,7 +127,7 @@
       </svg>
       <p class="flex-1"><span class="mr-0.5 -ml-1 text-xl font-bold text-sky-400">L</span>ivewire for reactivity</p>
     </div>
-    <div class="flex items-center space-x-4">
+    <div class="flex items-center space-x-8">
       <svg
         class="h-12 w-12 flex-shrink-0 rounded-xl border-4 border-zinc-700/25 bg-zinc-800 p-2"
         viewBox="0 -.11376601 49.74245785 51.31690859">
