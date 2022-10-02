@@ -19,7 +19,9 @@
     </h2>
     <a
       class="group inline-flex items-center justify-center gap-1 rounded-md bg-zinc-800/50 py-2 px-3 text-sm font-medium text-zinc-300 outline-offset-2 transition hover:bg-zinc-800 hover:text-zinc-50 active:bg-zinc-800/50 active:text-zinc-50/70"
-      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+      href="/assets/Felipe-Vega-Resume-2022.pdf"
+      target="_blank"
+      type="application/pdf">
       View Resume
       <svg
         viewBox="0 0 24 24"
