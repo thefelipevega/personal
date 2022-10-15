@@ -18,7 +18,7 @@ return [
             'title' => 'Writing',
         ],
         [
-            'url' => '#',
+            'url' => '/tools',
             'title' => 'Tools',
         ],
     ]),
