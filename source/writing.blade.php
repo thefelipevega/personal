@@ -1,5 +1,17 @@
 @extends('_layouts.main') @section('body')
-<div class="grid h-full gap-4 sm:mx-auto sm:max-w-prose sm:grid-cols-2 sm:gap-6 md:max-w-none lg:grid-cols-3 lg:gap-8">
-  <p>WRITING</p>
+<div class="pb-20 lg:pb-28">
+  <h2 class="text-4xl font-bold tracking-tight sm:my-4 sm:text-5xl">
+    Bag of <span class="line-through decoration-sky-400 decoration-wavy decoration-8">Holding</span> Writing
+  </h2>
+  <p class="mt-3 max-w-2xl text-lg leading-relaxed sm:mt-4">
+    Dive into my oeuvre of hastily typed ramblings and painstakingly edited pieces, like "Where's Waldo?" with words!
+    It's a veritable grab-bag sure to delight you, your friends, and their friends. There's something in here for
+    everyone, probably, most-likely, maybe...
+  </p>
+  <div class="grid gap-16 pt-12 sm:gap-0">
+    <x-writing.card></x-writing.card>
+    <x-writing.card></x-writing.card>
+    <x-writing.card></x-writing.card>
+  </div>
 </div>
 @endsection
