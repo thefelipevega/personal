@@ -9,9 +9,14 @@
     everyone, probably, most-likely, maybe...
   </p>
   <div class="grid gap-16 pt-12 sm:gap-0">
-    <x-writing.card></x-writing.card>
-    <x-writing.card></x-writing.card>
-    <x-writing.card></x-writing.card>
+    @forelse($writings as $writing)
+    <x-writing.card :writing="$writing"></x-writing.card>
+    @empty
+    <p class="text-lg font-bold tracking-wide">
+      🤔 hmm... <br />
+      There doesn't seem to be anything here. Check back later...
+    </p>
+    @endforelse
   </div>
 </div>
 @endsection

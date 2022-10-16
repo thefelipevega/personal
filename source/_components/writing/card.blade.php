@@ -1,13 +1,13 @@
 <div
   class="group flex origin-center justify-between transition-colors duration-500 ease-in-out hover:border-sky-400 sm:max-w-3xl sm:space-x-4 sm:border-l-2 sm:border-zinc-800 sm:py-4">
-  <p class="hidden flex-shrink-0 p-4 text-sm font-bold tracking-wider text-zinc-500 sm:block">2022-02-24</p>
+  <p class="hidden flex-shrink-0 p-4 text-sm font-bold tracking-wider text-zinc-500 sm:block">{{ $writing->date }}</p>
   <a
-    href="#"
-    class="flex origin-left flex-col rounded-md p-2 transition-colors duration-300 ease-out hover:bg-zinc-800 sm:p-4">
-    <p class="text-sm font-bold tracking-wider text-zinc-500 sm:hidden">2022-02-24</p>
-    <p class="mt-3 text-xl font-semibold sm:mt-0">Boost your conversion rate</p>
+    href="{{ $writing->getPath() }}"
+    class="flex flex-1 origin-left flex-col rounded-md p-2 transition-colors duration-300 ease-out hover:bg-zinc-800 sm:p-4">
+    <p class="text-sm font-bold tracking-wider text-zinc-500 sm:hidden">{{ $writing->date }}</p>
+    <p class="mt-3 text-xl font-semibold sm:mt-0">{{ $writing->title }}</p>
     <p class="mt-3 text-zinc-400">
-      Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+      {{ $writing->excerpt() }}
     </p>
     <p class="mt-3 flex items-center text-sm font-bold text-sky-400">
       Keep Reading

@@ -4,7 +4,7 @@
       @foreach($page->sections as $section)
       <a
         href="{{ $section->url }}"
-        class="text-xl tracking-wide hover:text-zinc-100 {{ $page->path() === $section->url ? 'text-white font-bold' : 'text-zinc-400' }}">
+        class="text-xl tracking-wide hover:text-zinc-100 {{ $page->link() === $section->url ? 'text-white font-bold' : 'text-zinc-400' }}">
         {{ $section->title }}
       </a>
       @endforeach

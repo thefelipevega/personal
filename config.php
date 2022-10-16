@@ -22,7 +22,16 @@ return [
             'title' => 'Tools',
         ],
     ]),
-    'path' => function ($page) {
+    'link' => function ($page) {
         return "/" . Str::of($page->getPath())->split('/\//')->filter()->first();
     },
+    'collections' => [
+        'writings' => [
+            'path' => 'writing/{filename}',
+            'sort' => '-date',
+            'excerpt' => function ($page, $characters = 300) {
+                return substr(strip_tags($page->getContent()), 0, $characters) . " ...";
+            },
+        ],
+    ],
 ];
